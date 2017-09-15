@@ -5,13 +5,6 @@ session_start();
 const MYSQLUSER = 'root'; // super bruger (remote har man særskilte database brugere)
 const MYSQLPASS = 'root'; // bruger password
 const MYSQLDB = 'mul_b'; // database navn */
-	
-
-	const HOSTNAME = 'marieegeberg.dk.mysql'; // server navn
-	const MYSQLUSER = 'marieegeberg_dk_poster'; // super bruger (remote har man særskilte database brugere)
-	const MYSQLPASS = 'marie1'; // bruger password
-	const MYSQLDB = 'marieegeberg_dk_poster'; // database navn
-
 
 $con = new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
 
